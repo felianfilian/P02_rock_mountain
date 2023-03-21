@@ -1,3 +1,10 @@
-* {
+body {
   margin: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+/* footer */
+
+.footnote {
+  text-align: center;
 }
