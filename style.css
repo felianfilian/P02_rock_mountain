@@ -1,3 +1,9 @@
+/*
+global color
+yellow
+#b48a4e
+*/
+
 body {
   margin: 0;
 
@@ -77,8 +83,50 @@ header img {
   margin-left: 16px;
 }
 
+.nav-image:hover {
+  cursor: pointer;
+  filter: drop-shadow(0px 0px 4px #fff);
+}
+
+/* quicklinks section */
+
+.section-quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  padding: 80px 80px;
+
+  background-color: #000;
+}
+
+.quick-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: #b48a4e;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.quick-link img {
+  width: 200px;
+  height: 200px;
+}
+
+/* festival section */
+
+/* slogan section */
+
+/* video section */
+
 /* footer */
 
 .footnote {
   text-align: center;
 }
+
+/* NEW */
