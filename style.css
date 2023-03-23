@@ -20,13 +20,30 @@ h1 {
   font-size: 84px;
 }
 
+h2 {
+  margin-block-start: 0;
+}
+
+input {
+  flex: 1;
+
+  height: 41px;
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
 .button {
-  margin-top: 16px;
   padding: 16px;
 
   background-color: #b48a4e;
   color: #fff;
   text-decoration: none;
+}
+
+.mt-16 {
+  margin-top: 16px;
 }
 
 /* header */
@@ -119,14 +136,120 @@ header img {
 
 /* festival section */
 
+.section-buy-ticket {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  background-color: #272727;
+}
+
+.img-buy-ticket {
+  height: 280px;
+}
+
+.festival-info {
+  flex: 1;
+
+  height: 200px;
+
+  padding: 40px;
+}
+
+.seperator {
+  width: 1px;
+  height: 200px;
+
+  margin-right: 10px;
+
+  background-color: #fff;
+}
+
+.container-buy-ticket {
+  display: flex;
+  justify-content: center;
+
+  width: 300px;
+}
+
 /* slogan section */
 
-/* video section */
+.section-slogan {
+  padding: 80px 80px;
 
-/* footer */
-
-.footnote {
+  color: #b48a4e;
+  font-size: 24px;
+  font-weight: 700;
   text-align: center;
 }
 
-/* NEW */
+/* video section */
+
+.section-video {
+  height: 600px;
+
+  background-image: url("./img/bottom.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+
+  padding: 80px 80px;
+
+  background-color: #000;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.footer-left {
+  display: flex;
+  align-items: flex-end;
+
+  padding-right: 16px;
+
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.footer-center {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 16px;
+
+  gap: 32px;
+}
+
+.footer-icon {
+  height: 32px;
+}
+
+.footer-form {
+  display: flex;
+}
+
+.footer-button {
+  width: 200px;
+
+  border-width: 0;
+}
+
+/* footnote */
+
+.footnote {
+  padding: 32px;
+
+  background-color: #000;
+  text-align: center;
+}
+
+.footnote a {
+  color: #8ebaf8;
+  text-decoration: none;
+}
