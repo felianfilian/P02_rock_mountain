@@ -253,3 +253,14 @@ footer {
   color: #8ebaf8;
   text-decoration: none;
 }
+
+/* responsive */
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 700px) {
+}
+
+@media (max-width: 950px) {
+}
