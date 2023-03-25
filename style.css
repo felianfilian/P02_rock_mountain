@@ -157,6 +157,8 @@ header img {
   height: 200px;
 
   padding: 40px;
+
+  text-align: center;
 }
 
 .seperator {
@@ -260,11 +262,25 @@ footer {
 /* responsive */
 
 @media (max-width: 600px) {
+  .section-quick-links {
+    flex-direction: column;
+
+    gap: 100px;
+  }
 }
 
 @media (max-width: 700px) {
   h1 {
     font-size: 48px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .full-width-mobile {
+    width: 100%;
   }
 
   .hide-mobile {
@@ -273,4 +289,25 @@ footer {
 }
 
 @media (max-width: 950px) {
+  p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  .section-buy-ticket {
+    flex-direction: column;
+  }
+
+  .img-buy-ticket {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .seperator {
+    display: none;
+  }
+
+  .container-buy-ticket {
+    padding-bottom: 40px;
+  }
 }
