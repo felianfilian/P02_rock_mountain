@@ -113,6 +113,7 @@ header img {
   justify-content: space-around;
 
   padding: 80px 80px;
+  gap: 16px;
 
   background-color: #000;
 }
@@ -121,6 +122,7 @@ header img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex: 1;
 
   color: #b48a4e;
   cursor: pointer;
@@ -130,8 +132,9 @@ header img {
 }
 
 .quick-link img {
-  width: 200px;
-  height: 200px;
+  object-fit: cover;
+
+  width: 100%;
 }
 
 /* festival section */
