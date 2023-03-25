@@ -279,6 +279,13 @@ footer {
     align-items: center;
   }
 
+  .footer-left {
+    margin-bottom: 32px;
+    padding: 0;
+
+    text-align: center;
+  }
+
   .full-width-mobile {
     width: 100%;
   }
